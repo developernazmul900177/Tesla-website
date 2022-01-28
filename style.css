@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg1in{
+    margin-top: 350px;
+}
+.btn1{
+    background: #3B3E42;
+    color: #fff;
+    padding: 10px 70px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+abbr{
+    text-decoration: none;
+}
+.btn2{
+    background: #EDEDED;
+    color: #393C41;
+    padding: 10px 70px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+.bg1{
+    text-align: center;
+    padding: 100px 0px;
+}
+
+
+.bg1 h1{
+    font-size: 40px;
+    color: #4E5256;
+}
+
+
+.bg1 p{
+    font-size: 17px;
+    color: #4E5256;
+}
+
+.bg1 a{
+    color: #4E5256;
+}
+
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url("images/desktop_model.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.menubar{
+    width: 100%;
+    position: fixed;
+}
+.menubar .logo{
+    width: 15%;
+    float: left;
+}
+.menubar .logo img{
+    margin-top: -10px;
+    margin-left: 25px;
+}
+.menubar .middle-text{
+    width: 65%;
+    float:left;
+    margin-left: 100px;
+}
+.menubar .middle-text ul {
+
+}
+.menubar .middle-text h1{
+    font-size: 17px;
+    color: #4E5256;
+}
+.menubar .middle-text ul li{
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+}
+.menubar .middle-text ul li a{
+    text-decoration: none;
+
+    
+}
+.menubar .middle-text ul h1:hover{
+    background-color: #7D8088;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+}
+.menubar .right-text{
+    width: 20%;
+    float: right;
+    margin-top: -50px;
+}
+
+.menubar .right-text ul{
+
+}
+
+.menubar .right-text ul li{
+    list-style-type: none;
+    float: right;
+    padding: 10px;
+    margin-right: 20px;
+}
+.menubar .right-text ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #4E5256;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menubar .right-text ul li a:hover{
+    background-color: #7D8088;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+}
+
+
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    background: url("images/2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.container3{
+    width: 100%;
+    height: 100vh;
+    background: url("images/3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.container4{
+    width: 100%;
+    height: 100vh;
+    background: url("images/4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container5{
+    width: 100%;
+    height: 100vh;
+    background: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/45992f1c-a33a-4a04-b1f0-338aff182f8e/bvlatuR/std/2880x1800/_25-Hero-D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.container6{
+    width: 100%;
+    height: 100vh;
+    background: url("https://www.tesla.com/sites/default/files/solarroof/v3/design/solar-roof_design_D.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container7{
+    width: 100%;
+    height: 100vh;
+    background: url("images/7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+footer{
+    margin-left: 400px;
+    margin-bottom: 70px;
+}
+footer ul{
+
+}
+footer ul li{
+    list-style-type: none;
+    float: left;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #929396;
+    padding: 10px;
+    
+    display: block;
+}

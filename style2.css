@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.contact{
+    width: 100%;
+}
+.contact .side{
+    width: 100%;
+    position: fixed;
+}
+.contact .left img{
+    margin-top: -40px;
+}
+.contact .side .right{
+    margin-top: -90px;
+    margin-right: 20px;
+    float: right;
+}
+.contact .right h3{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.myform{
+    padding: 100px 0px;
+}
+form{
+    margin-left: 40%;
+}
+form h2{
+    font-size: 50px;
+    margin-left: -100px;
+    margin-bottom: 20px;
+    color: rgb(43, 36, 36);
+}
+label{
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(54, 52, 52);
+}
+
+select, input{
+    width: 400px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #ddd;
+    font-size: 17px;
+    color: rgb(48, 44, 44);
+}
+input[type="checkbox"]{
+    width: 20px;
+    
+}
+form .check{
+    width: 400px;
+    margin-top: -45px;
+    margin-left: 20px;
+}
+form .check a{
+    text-decoration: underline;
+    color: rgb(48, 44, 44);
+}
+form input[type="button"]{
+    background-color: rgb(53, 53, 187);
+    color: #fff;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+form input[type="button"]:hover{
+    background-color: rgb(39, 1, 252);
+}
+.division  hr{
+    width: 150px;  
+}
+.division p{
+    margin-left: 160px;
+    margin-top: -10px;
+}
+.division .second hr{
+    margin-left: 200px;
+    margin-top: -10px;
+}
+form .btn-last input[type="button"]{
+    background-color: #fff;
+    border: 3px solid #000;
+    color: #000;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+form .btn-last input[type="button"]:hover{
+    background-color: #000;
+    color: #fff;
+}
+footer{
+    margin-left: 570px;
+    margin-bottom: 20px;
+}
+footer a{
+    
+    padding: 20px 10px;
+    color: rgb(37, 35, 35);
+    font-size: 18px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
